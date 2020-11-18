@@ -192,3 +192,18 @@ background-color: #7395AE;
   background-color: #b1a296 ;
   font-weight: 400;
 }
+
+.main .picture{
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.main .picture img{
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    transform: translateY(0.5rem);
+    z-index: 0;
+    position: relative;
+    float: left;
+}
